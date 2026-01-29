@@ -25,15 +25,6 @@ DOMAIN-SUFFIX, oaiusercontent.com
 DOMAIN-SUFFIX, openai.com
 DOMAIN-SUFFIX, sora.com
 
-
-
-# GitHub Copilot
-DOMAIN, api.githubcopilot.com
-DOMAIN, copilot-proxy.githubusercontent.com
-DOMAIN, copilot.microsoft.com
-DOMAIN, sydney.bing.com
-DOMAIN-SUFFIX, githubcopilot.com
-
 # Google Gemini
 DOMAIN, ai.google.dev
 DOMAIN, aida.googleapis.com
@@ -61,25 +52,6 @@ IP-CIDR6, 2607:6bc0::/48, no-resolve
 DOMAIN-SUFFIX, grazie.ai
 DOMAIN-SUFFIX, grazie.aws.intellij.net
 DOMAIN-SUFFIX, jetbrains.ai
-
-# Meta AI
-DOMAIN, imagine.meta.com
-DOMAIN-SUFFIX, meta.ai
-
-# Perplexity AI
-DOMAIN-SUFFIX, pplx.ai
-DOMAIN-SUFFIX, perplexity.ai
-DOMAIN-SUFFIX, perplexity.com
-
-# Mistral AI
-DOMAIN, chat.mistral.ai
-DOMAIN, console.mistral.ai
-DOMAIN-SUFFIX, mistral.ai
-
-# Grok AI
-DOMAIN, api.x.ai
-DOMAIN-SUFFIX, x.ai
-DOMAIN-SUFFIX, grok.com
 
 # Trae AI
 DOMAIN, trae-api-sg.mchost.guru
