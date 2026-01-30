@@ -1,50 +1,76 @@
-# OpenAI ChatGPT
-DOMAIN-KEYWORD,chatgpt-async-webps-prod-
-DOMAIN-SUFFIX,webpubsub.azure.com
-DOMAIN-KEYWORD,openaicom-api-
-DOMAIN-SUFFIX,azurefd.net
-DOMAIN,chatgpt.livekit.cloud
-DOMAIN,host.livekit.cloud
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN,openai.com.cdn.cloudflare.net
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN-SUFFIX,chat.com
+# NAME: AI_Restrict
+# AUTHOR: Gemini_Assistant
+# UPDATED: 2026-01-30
+# DESCRIPTION: 剔除支持香港的AI域名，仅保留需要特定地区代理的服务
+
+# >>> OpenAI & ChatGPT & Sora <<<
+DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-KEYWORD,openai
 
-# Google Gemini
-DOMAIN,ai.google.dev
-DOMAIN,aida.googleapis.com
-DOMAIN,aistudio.google.com
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,bard.google.com
-DOMAIN,deepmind.com
-DOMAIN,deepmind.google
-DOMAIN,geller-pa.googleapis.com
-DOMAIN,gemini.google.com
-DOMAIN,generativeai.google
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,makersuite.google.com
-DOMAIN,proactivebackend-pa.googleapis.com
-
-# Anthropic Claude
+# >>> Anthropic & Claude <<<
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
-IP-CIDR,160.79.104.0/23
-IP-CIDR6,2607:6bc0::/48
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
 
-# JetBrains AI
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,grazie.aws.intellij.net
-DOMAIN-SUFFIX,jetbrains.ai
+# >>> Google Gemini & AI Labs <<<
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 
-# Trae AI
-DOMAIN,trae-api-sg.mchost.guru
-DOMAIN-SUFFIX,trae.ai
+# >>> Microsoft Copilot (基于OpenAI) <<<
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,microsoft-copilot.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,api.githubcopilot.com
+DOMAIN-SUFFIX,sydney.bing.com
+
+# >>> xAI (Grok) <<<
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
+# >>> Perplexity <<<
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+
+# >>> 其他严格检测IP的AI服务 <<<
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabs.com
+DOMAIN-SUFFIX,heygen.com
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,poecdn.net
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,cerebras.ai
+
+# >>> 关键验证域名 (Auth0 & Labs) <<<
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
